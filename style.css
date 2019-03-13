@@ -1,52 +1,147 @@
 
-header {
+body {
     background-color: black;
-    opacity: 60;  
+    height: 100%;
+    padding: 0px;
+    margin: 0px; 
 }
 
+#container {
+    min-height: 100%;
+    text-align: center;
+}
+
+#container {
+    height: 100%;
+}
+
+/*Navigation Bar*/
 .nav {
     color: goldenrod;
-    background-color: whitesmoke;
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: block;
-}
-
-.nav ul li {
-    display: block;
-    color: goldenrod;
-    padding: 5px;
-    radius: 5%;
-    float: left;
+    margin-top: 50px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top: 7px solid goldenrod;
+    border-bottom: 5px solid goldenrod;
 
 }
 
+.main_nav li {
+    display: inline;
+    color: black;
+    font-weight: bolder;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    background-color: silver;
+    border-radius: 10%;
+}
+
+.button1 {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.button2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button3 {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.home_nav li {
+    color: black;
+    font-weight: bolder;
+}
+
+.button4 {
+    position: absolute;
+    left: 750px;
+    top: 57px;
+    width: 40px;
+    height: 40px;
+    -moz-outline-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+/*Header*/
 #head_title {
     text-align: center;
     font-size: 75px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: goldenrod;
-    margin: 0 0 auto 0;
-    
-    
-}
-body {
-    background-color:silver;
-    width: 200px, auto;
-}
-
-footer {
-    text-align: center;
+    margin: auto;   
 }
 
 .photobooth {
-    background-color:black;
     padding: 20px;
     text-align: center;
 }
 
+/*Body Columns*/
+
+.main_container {
+    width: 100%;
+}
+
+.box1 {
+    color: white;
+    border: 5px solid goldenrod;
+    width: 25%;
+    min-height: 60%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+}
+
+.box2 {
+    color: white;
+    border: 5px solid goldenrod;
+    width: 25%;
+    min-height: 60%;
+    display: inline-block;
+    
+}
+
+.box2 img {
+    text-align: center;
+}
+
+.box3 {
+    color: white;
+    border: 5px solid goldenrod;
+    width: 25%;
+    min-height: 60%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0px;
+}
+
+
+/*Footer*/
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding:10px;    
+    text-align: center;
+    height: 30px;
+    background-color: silver;
+    border-top: 5px solid goldenrod;
+}
+
+.footer_nav li {
+    display: inline;
+    font-size: small;
+    padding-right: 5px;
+    padding-left: 5px;
+}
